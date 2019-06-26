@@ -66,6 +66,7 @@ $Text::Wrap::columns = $opts{'W'};
 	    split("\n", fill("", "", @message)));
 &construct_balloon;
 &construct_face;
+$eye = substr($eyes,0,1);
 if ($random) {
     &get_random_cow;
 }
